@@ -1,3 +1,3 @@
 # datchat-ui-design
 
-Thought exercise for DatChat chatbot - designing a mobile-friendly interface U-ex 
+Exercise for DatChat for Fizz Studio - designing a mobile-friendly interface  

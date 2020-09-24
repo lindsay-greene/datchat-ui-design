@@ -13,96 +13,84 @@
 
     <body>
 
-        <div class="row"><header>
-            <a NAME="finished"><div class="col-12" id="title"><h1>DatChat</h1></div></a>
-            <div class="col-7" id="placeholder"><p>For all your data analysis needs.</p></div>
+        <div><header>
+            <a NAME="finished"><div id="title"><h1>DatChat</h1></div></a>
+            <div id="placeholder"><p>For all your data analysis needs.</p></div>
         </header></div>
 
-        <div class="row" id="ready">
-            <div class="col-5"><h2>Ready?</h2></div>
-        </div>
-            
+        <div id="ready"><h2>Ready?</h2></div>
+        
+        <div>
         <details>
-            <summary>Where will your data be coming from?</summary>
+            <summary class="question">Where will your data be coming from?</summary>
             <details>
-                <summary>Browse categories of data<summary>
-                    <p>Choose a category</p>
-                        <details>
-                            <summary>Stock market (popular)</summary>
-                            <button>DOW points over time</button>
-                            <button>Average stock prices</button>
-                        </details>
-                        <details>
-                            <summary>Coronavirus (popular)</summary>
-                            <button>Number of cases</button>
-                            <button>Death rate</button>
-                        </details>
-                        <details>
-                            <summary>Climate change (popular)</summary>
-                            <button>Global average temperatures</button>
-                            <button>Carbon emissions over time</button>
-                        </details>
-                        <details>
-                            <summary>World birth rates</summary>
-                            <button>United States</button>
-                            <button>Japan</button>
-                            <button>India</button>
-                            <button>Niger</button>
-                        </details>
-                        <details>
-                            <summary>Income</summary>
-                            <button>Median household incomes</button>
-                            <button>Wealth gap (gender)</button>
-                            <button>Wealth gap (race)</button>
-                        </details >
+                <summary class="choose">Browse categories of data<summary>
+                    <details>
+                        <summary>Stock market (popular)</summary>
+                        <button>DOW points over time</button>
+                        <button>Average stock prices</button>
                     </details>
-
+                    <details>
+                        <summary>Coronavirus (popular)</summary>
+                        <button>Number of cases</button>
+                        <button>Death rate</button>
+                    </details>
+                    <details>
+                        <summary>Climate change (popular)</summary>
+                        <button>Global average temperatures</button>
+                        <button>Carbon emissions over time</button>
+                    </details>
+                    <details>
+                        <summary>World birth rates</summary>
+                        <button>United States</button>
+                        <button>Japan</button>
+                        <button>India</button>
+                        <button>Niger</button>
+                    </details>
+                    <details>
+                        <summary>Income</summary>
+                        <button>Median household incomes</button>
+                        <button>Wealth gap (gender)</button>
+                        <button>Wealth gap (race)</button>
+                    </details >
             </details>
             <details>
-            <summary>Enter your own data<summary>
-            <div>
-                <p>Enter comma-separated data here.</p>
-                <details>
-                    <summary>Click or tap, then type or speak</summary>
-                    <form method="post">
-                        <input type="text" size="50" style="height:40px">
-                   </form>
-                </details>
-                
-            </div>
+                <summary class="choose">Enter your own data<summary>
+                <form method="post">
+                    <input type="text" size="50" style="height:40px">
+                </form>
             </details>
+        </details>
         </div>
 
-        <div class="row">
-            <div class="col-7" id="results1"><p>Chart appears here</p></div>
-        </div>
+        <div id="results1"><p>Chart appears here</p></div>
 
         <details>
-            <summary>What would you like to know about this data?</summary>
-        <div class="row" id="option2">
-            <details id="avg">
-                <summary>Average</summary>
-                <p>The average of this data is xx.</p>
-            </details>
-            <details id="range">
-                <summary>Range</summary>
-                <p>The range of this data is xx.</p>
-            </details>
-            <details id="max-min">
-                <summary>Max or Min</summary>
-                <p>The max of this data is xx.</p>
-                <p>The min of this data is xx.</p>
-            </details>
-            <details id="trend">
-                <summary>Overall trend</summary>
-                <p>The overall trend of this data is xx.</p>
-            </details>
-        </div>
+            <summary class="question">What would you like to know about this data?</summary>
+            <div id="option2">
+                <details id="avg">
+                    <summary class="choose">Average</summary>
+                    <p>The average of this data is xx.</p>
+                </details>
+                <details id="range">
+                    <summary class="choose">Range</summary>
+                    <p>The range of this data is xx.</p>
+                </details>
+                <details id="max-min">
+                    <summary class="choose">Max or Min</summary>
+                    <p>The max of this data is xx.</p>
+                    <p>The min of this data is xx.</p>
+                </details>
+                <details id="trend">
+                    <summary class="choose">Overall trend</summary>
+                    <p>The overall trend of this data is xx.</p>
+                </details>
+            </div>
         </details>
 
         <div class="row">
             <details>
-                <summary>What would you like to do next?</summary>
+                <summary class="question">What would you like to do next?</summary>
                 <button id="new-data">Learn about new data</button>
                 <button id="new-info">Get new info about the same data</button>
                 <a HREF="#finished"><button id="exit">Exit Datchat</button></a>

@@ -17,7 +17,7 @@ var option3 = document.getElementById("option3");
 var newData = document.getElementById("new-data");
 var newInfo = document.getElementById("new-info");
 var exit = document.getElementById("exit");
-// Need to figure out a way to do placeholder text to say thank you at the end 
+var placeholder = document.getElementById("placeholder"); 
 
 ready.onclick = function() {
     step1.style.visibility = "visible";

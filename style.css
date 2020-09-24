@@ -8,13 +8,13 @@ body {
     background-color: #ccccff;
 }
 
-/* h1, h2 {
+.question {
     background-color: #9933cc;
     color: #ffffff;
     padding: 15px;
 }
 
-p, #results2, #placeholder {
+/* p, #results2, #placeholder {
     font-size: 22px;
     font-style: italic;
     color: #9933cc;

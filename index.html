@@ -27,31 +27,31 @@
                 <summary class="choose">Browse categories of data<summary>
                     <details>
                         <summary>Stock market (popular)</summary>
-                        <button>DOW points over time</button>
-                        <button>Average stock prices</button>
+                        <button class="data">DOW points over time</button>
+                        <button class="data">Average stock prices</button>
                     </details>
                     <details>
                         <summary>Coronavirus (popular)</summary>
-                        <button>Number of cases</button>
-                        <button>Death rate</button>
+                        <button class="data">Number of cases</button>
+                        <button class="data">Death rate</button>
                     </details>
                     <details>
                         <summary>Climate change (popular)</summary>
-                        <button>Global average temperatures</button>
-                        <button>Carbon emissions over time</button>
+                        <button class="data">Global average temperatures</button>
+                        <button class="data">Carbon emissions over time</button>
                     </details>
                     <details>
                         <summary>World birth rates</summary>
-                        <button>United States</button>
-                        <button>Japan</button>
-                        <button>India</button>
-                        <button>Niger</button>
+                        <button class="data">United States</button>
+                        <button class="data">Japan</button>
+                        <button class="data">India</button>
+                        <button class="data">Niger</button>
                     </details>
                     <details>
                         <summary>Income</summary>
-                        <button>Median household incomes</button>
-                        <button>Wealth gap (gender)</button>
-                        <button>Wealth gap (race)</button>
+                        <button class="data">Median household incomes</button>
+                        <button class="data">Wealth gap (gender)</button>
+                        <button class="data">Wealth gap (race)</button>
                     </details >
             </details>
             <details>
@@ -69,21 +69,25 @@
             <summary class="question">What would you like to know about this data?</summary>
             <div id="option2">
                 <details id="avg">
-                    <summary class="choose">Average</summary>
+                    <summary class="info">Average</summary>
                     <p>The average of this data is xx.</p>
                 </details>
-                <details id="range">
+                <details id="info">
                     <summary class="choose">Range</summary>
                     <p>The range of this data is xx.</p>
                 </details>
                 <details id="max-min">
-                    <summary class="choose">Max or Min</summary>
+                    <summary class="info">Max or Min</summary>
                     <p>The max of this data is xx.</p>
                     <p>The min of this data is xx.</p>
                 </details>
                 <details id="trend">
-                    <summary class="choose">Overall trend</summary>
+                    <summary class="info">Overall trend</summary>
                     <p>The overall trend of this data is xx.</p>
+                </details>
+                <details id="repeat">
+                    <summary>Repeat the last action</summary>
+                    <p>Placeholder</p>
                 </details>
             </div>
         </details>
